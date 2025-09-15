@@ -1,0 +1,50 @@
+:root {
+    --manha1: #F7F3F0;
+    --manha2: #B6A998;
+    --manha3: #3E4D22;
+    --manha: linear-gradient(140deg, var(--manha1), var(--manha2), var(--manha3));
+
+    --tarde1: #56303F;
+    --tarde2: #F8B797;
+    --tarde3: #766462;
+    --tarde: linear-gradient(140deg, var(--tarde1), var(--tarde2), var(--tarde3));
+
+    --noite1: #5A6875;
+    --noite2: #232C3B;
+    --noite3: #1A1B1F;
+    --noite: linear-gradient(140deg, var(--noite1), var(--noite2), var(--noite3));
+}
+
+body {
+    /* background-color: rgb(70, 142, 236); */
+    background-image: var(--manha);
+    background-attachment: fixed ;
+    font: normal 1.2540em Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .363);
+}
+
+.teste {
+    background: url(images/manha.png);
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
