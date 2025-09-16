@@ -2,11 +2,11 @@
     --manha1: #F7F3F0;
     --manha2: #B6A998;
     --manha3: #3E4D22;
-    --manha: linear-gradient(140deg, var(--manha1), var(--manha2), var(--manha3));
+    --manha: linear-gradient(140deg, var(--manha1), var(--manha2), var(--manha3)90%);
 
-    --tarde1: #56303F;
-    --tarde2: #F8B797;
-    --tarde3: #766462;
+    --tarde1: #F8B797;
+    --tarde2: #766462;
+    --tarde3: #56303F;
     --tarde: linear-gradient(140deg, var(--tarde1), var(--tarde2), var(--tarde3));
 
     --noite1: #5A6875;
@@ -34,7 +34,13 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, .363);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .363);
+    text-align: center;
+    color: white;
+}
+
+div#msg {
+    margin-bottom: 10px;
 }
 
 .teste {
