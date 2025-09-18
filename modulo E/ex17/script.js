@@ -4,7 +4,7 @@ function tabuada() {
     if (num.value.length == 0) {
         alert('Digite um número')
     }else {
-        let n = Number(num.valeu)
+        let n = Number(num.value)
         let c = 1
         tab.innerHTML = ''
         while (c <= 10) {
